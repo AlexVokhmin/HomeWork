@@ -63,7 +63,7 @@ def server_info():
     server_author = "Alexander"
     db_size = len(db)
     page_info = "Версия сервера: " + sys.version + \
-           f"Автор сервера:  {server_author} + " \
+           f"Автор сервера:  {server_author}  " + \
            f"Сообщений в 'БД': {db_size}"
     return page_info
 

@@ -13,7 +13,6 @@ app = Flask(__name__)
 def index_page():
     return "HELLO"
 
-
 db_file = "./data/db_example.json"
 json_db = open(db_file, "rb")
 data = json.load(json_db)
